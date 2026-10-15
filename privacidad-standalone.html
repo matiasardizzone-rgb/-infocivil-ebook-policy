@@ -94,9 +94,6 @@ footer{
 }
 </style>
 
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@600&family=Source+Sans+3:wght@400;600;700&family=JetBrains+Mono:wght@500&display=swap">
-
-
 </head>
 <body>
 <div class="barra">
@@ -111,7 +108,7 @@ footer{
 
 <main>
   <h1>Política de Privacidad</h1>
-  <div class="fecha">Última actualización: octubre de 2026</div>
+  <div class="fecha">Última actualización: 15 de octubre de 2026</div>
 
   <section>
     <p>Infocivil Ebook es una extensión de Chrome desarrollada por la Oficina de Sistemas y Tecnología (SYTEC) de la Cámara Nacional de Apelaciones en lo Civil, Poder Judicial de la Nación (PJN), para uso interno de agentes judiciales del fuero Civil. Permite consultar expedientes del Sistema de Consulta Web (SCW) y leerlos como libro digital, con funciones de exportación y seguimiento.</p>
@@ -119,8 +116,10 @@ footer{
   </section>
 
   <section>
-    <h2>No recolectamos ni transmitimos datos</h2>
-    <p>Infocivil Ebook <strong>no envía información a ningún servidor</strong>, propio ni de terceros. No hay backend, no hay analítica, no hay seguimiento de uso. Todo el procesamiento ocurre dentro del navegador del usuario.</p>
+    <h2>Tratamiento local y comunicaciones necesarias</h2>
+    <p>Infocivil Ebook <strong>no transmite a servidores propios ni de terceros el contenido de los expedientes, los documentos guardados ni la actividad de uso</strong>. No hay backend, analítica ni seguimiento de uso.</p>
+    <p>La extensión se comunica con el Sistema de Consulta Web (SCW) del PJN para consultar los expedientes que el usuario solicita. El procesamiento y la conservación de los datos descargados ocurren dentro del navegador del usuario.</p>
+    <p>Una página institucional autorizada puede consultar si la extensión está instalada y qué versión tiene, para facilitar su instalación o actualización. Esa consulta no incluye contenido de expedientes, documentos guardados ni datos personales de las partes.</p>
     <p>Lo único que la extensión guarda, y lo guarda <strong>localmente en el navegador</strong> (mediante <code>chrome.storage.local</code> e IndexedDB), es:</p>
     <ul>
       <li>El contenido de los expedientes que el usuario consultó, para poder leerlos como libro sin volver a descargarlos.</li>
@@ -139,7 +138,7 @@ footer{
       <tr><th>scripting</th><td>Extraer el contenido del expediente desde la propia página del SCW.</td></tr>
       <tr><th>storage / unlimitedStorage</th><td>Guardar localmente el contenido descargado y la configuración de "Mis Expedientes" (los expedientes suelen ocupar más de lo que permite el límite por defecto).</td></tr>
       <tr><th>downloads</th><td>Guardar en el equipo del usuario los archivos exportados: PDF, ZIP o EPUB.</td></tr>
-      <tr><th>Acceso a scw.pjn.gov.ar</th><td>Es el único sitio donde opera la extensión — el Sistema de Consulta Web de expedientes del fuero Civil del PJN.</td></tr>
+      <tr><th>Acceso a scw.pjn.gov.ar</th><td>Permite operar sobre el Sistema de Consulta Web de expedientes del fuero Civil del PJN.</td></tr>
     </table>
     </div>
   </section>
@@ -147,9 +146,9 @@ footer{
   <section>
     <h2>Qué no hacemos</h2>
     <ul>
-      <li>No vendemos ni compartimos datos con terceros.</li>
+      <li>No vendemos ni compartimos con terceros el contenido de los expedientes o los documentos guardados.</li>
       <li>No usamos la información para publicidad ni perfiles de usuario.</li>
-      <li>No accedemos a sitios distintos de scw.pjn.gov.ar.</li>
+      <li>No leemos ni modificamos el contenido de sitios distintos de <code>scw.pjn.gov.ar</code>.</li>
       <li>No usamos código cargado desde servidores externos: todo el código que ejecuta la extensión viaja dentro del propio paquete instalado.</li>
     </ul>
     <div class="nota">Infocivil Ebook es una herramienta de uso exclusivo para agentes del Poder Judicial de la Nación. No está destinada al público en general ni se distribuye fuera de ese ámbito.</div>
